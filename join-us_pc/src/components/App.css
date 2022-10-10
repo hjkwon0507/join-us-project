@@ -1,0 +1,26 @@
+div, form, ul, ol, li, a, p, input, h1, h2, h3 {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ul, li, ol {
+  list-style: none;
+}
+a, button {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+}
+select {
+  cursor: pointer;
+  -webkit-appearance: none;  
+  -moz-appearance: none;
+  appearance: none;
+}
+input {
+  display: block;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
